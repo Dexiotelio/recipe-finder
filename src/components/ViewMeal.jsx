@@ -1,4 +1,6 @@
+// // react-router-dom
 import { useParams } from "react-router-dom";
+// react
 import { useEffect } from "react";
 // components
 import Table from "./Table";

@@ -1,5 +1,8 @@
+// // react-router-dom
 import { useParams } from "react-router-dom";
+// react
 import { useState, useEffect } from "react";
+// components
 import DisplayContent from "./DisplayContent";
 
 export default function ViewCategory() {

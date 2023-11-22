@@ -1,6 +1,7 @@
 import Search from "./Search";
+// // react-router-dom
 import { Link } from "react-router-dom";
-
+// components
 import { DropDown } from "./DropDown";
 
 export default function NavBar() {
@@ -31,7 +32,10 @@ export default function NavBar() {
             </Link>
           </li>
           <li className="github">
-            <Link to="" className="link">
+            <Link
+              to="https://github.com/Dexiotelio/recipe-finder/tree/main"
+              className="link"
+            >
               Github
             </Link>
           </li>
