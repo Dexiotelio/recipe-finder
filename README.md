@@ -7,4 +7,4 @@ La aplicación es un buscador de recetas hecho con React, Css y con react-router
 Se hizo un sencillo menú de navegación donde controlamos las búsquedas del usuario nosotros mismos (sin react hook form, por ejemplo), y al igual, 
 que se creó un botón con un menú despegable para tener acceso rápido a las categorías y así evitar ir a la página de inicio constantemente.
 
-Posteriormente, se va a editar el código para mejorar la accesibilidad y agregarle paginación
+Posteriormente, se va a editar el código para mejorar la accesibilidad, agregarle paginación y un footer
