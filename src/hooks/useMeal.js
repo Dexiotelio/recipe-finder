@@ -15,7 +15,7 @@ export default function useMeal() {
       const result = await SearchMeal({ search });
       setMeal(result);
     } catch (err) {
-      setError("Error: " + err.message);
+      setError("Error: ", err.message);
     } finally {
       setLoading(false);
     }

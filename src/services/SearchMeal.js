@@ -16,6 +16,6 @@ export default async function SearchMeal({ search }) {
     const meal = json.meals;
     return meal;
   } catch (err) {
-    throw new Error("Error searching Meals: " + err.message);
+    throw new Error("Error searching Meals: ", err.message);
   }
 }

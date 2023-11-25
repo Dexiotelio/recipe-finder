@@ -19,7 +19,7 @@ export default function ViewCategory() {
       const json = await response.json();
       setCategory(json.meals);
     } catch (err) {
-      throw new Error("Error: " + err.message);
+      throw new Error("Error: ", err.message);
     } finally {
       setLoading(false);
     }

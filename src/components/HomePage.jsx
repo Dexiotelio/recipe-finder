@@ -17,7 +17,7 @@ export default function HomePage() {
       const json = await response.json();
       setCategories(json.categories);
     } catch (err) {
-      throw new Error("Error: " + err.message);
+      throw new Error("Error: ", err.message);
     } finally {
       setLoading(false);
     }
